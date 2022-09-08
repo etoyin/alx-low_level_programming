@@ -11,9 +11,7 @@
 
 int main(void)
 {
-	char myOutPut[] = "\"Programming is like building a multilingual puzzle";	
-
-	puts(myOutPut);
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
