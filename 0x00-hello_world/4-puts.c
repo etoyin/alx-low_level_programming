@@ -15,5 +15,4 @@ int main(void)
 	
 	puts(myOutPut);
 
-	return (0);
-}
+	return (0);}
