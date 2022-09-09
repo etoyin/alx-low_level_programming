@@ -8,14 +8,17 @@
 
 /* betty style doc for function main goes there */
 
-/*
+/**
+ *
  * main - main block
- * 
- * Description: 'Description of this program'
- * 
- * int main
- * Return:0
- */
+ *
+ * Description: Get a random number and print the number
+ *
+ * and if it is positive, negative, or zero
+ *
+ * Return: 0
+ *
+ **/
 
 int main(void)
 {
