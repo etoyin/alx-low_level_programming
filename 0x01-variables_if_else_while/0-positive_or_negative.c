@@ -10,7 +10,9 @@
 
 /*
  * main - main block
- * Description: main
+ * 
+ * Description: 'Description of this program'
+ * 
  * int main
  * Return:0
  */
