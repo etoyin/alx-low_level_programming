@@ -15,6 +15,7 @@ int main(void)
 		if (i == 'q' || i == 'e')
 			break;
 		putchar(i);
+		i++;
 	}
 	putchar('\n');
 	return (0);
