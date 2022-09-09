@@ -6,14 +6,15 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 	int i = 'a';
 
-	while (i <= 'z') {
+	while (i <= 'z')
+	{
 		putchar(i);
-		putchar('\n');
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
