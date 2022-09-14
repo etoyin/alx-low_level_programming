@@ -3,6 +3,10 @@
 /**
  * _islower -  to check if argument
  * is uppercase or lower case letter
+ *
+ * @c: check input function
+ *
+ * Return: 0 or 1
  */
 
 int _islower(int c)
