@@ -18,6 +18,9 @@ void times_table(void)
 
 		while (j <= 9)
 		{
+			_putchar(',');
+			_putchar(' ');
+
 			prod = i * j;
 
 			if (prod <= 9)
