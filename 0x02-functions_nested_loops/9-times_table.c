@@ -8,7 +8,7 @@
 void times_table(void)
 {
 	int i = 0;
-	int j;
+	int j, prod;
 
 	while (i <= 9)
 	{
@@ -16,7 +16,12 @@ void times_table(void)
 
 		while (j <= 9)
 		{
-			_putchar((i * j));
+			prod = i * j;
+
+			if (prod > 10)
+				_putchar((prod / 10) + 48);
+
+			_putchar((prod % 10) + 48);
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
