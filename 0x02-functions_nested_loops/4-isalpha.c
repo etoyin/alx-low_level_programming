@@ -2,7 +2,7 @@
 
 /**
  * _isalpha -  to return all alphabet to be true
- * @c - parameter
+ * @c: input parameter
  * Return: 1 or 0
  */
 
