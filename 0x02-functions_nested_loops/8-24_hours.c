@@ -17,14 +17,12 @@ void jack_bauer(void)
 
 		while (j <= 59)
 		{
-			if (i < 10)
-				_putchar('0');
-			_putchar(i + 48);
+			_putchar((i / 10) + 48);
+			_putchar((i % 10) + 48);
 			_putchar(':');
 
-			if (j < 10)
-				_putchar('0');
-			_putchar(j + 48);
+			_putchar((j / 10) + 48);
+			_putchar((j % 10) + 48);
 			j++;
 			_putchar('\n');
 		}
