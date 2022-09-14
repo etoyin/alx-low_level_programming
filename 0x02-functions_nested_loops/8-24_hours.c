@@ -19,12 +19,12 @@ void jack_bauer(void)
 		{
 			if (i < 10)
 				_putchar('0');
-			_putchar(i);
+			_putchar(i + '0');
 			_putchar(':');
 
 			if (j < 10)
 				_putchar('0');
-			_putchar(j);
+			_putchar(j + '0');
 			j++;
 			_putchar('\n');
 		}
