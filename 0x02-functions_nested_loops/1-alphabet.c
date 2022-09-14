@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * main -main block
@@ -20,9 +20,9 @@ int main(void)
 
 void print_alphabet(void)
 {
-	char i = "a";
+	char i = 'a';
 
-	while (i <= "z")
+	while (i <= 'z')
 	{
 		_putchar(i);
 		i++;
