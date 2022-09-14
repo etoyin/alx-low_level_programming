@@ -18,7 +18,7 @@ void times_table(void)
 		{
 			prod = i * j;
 			next_prod1 = (i * (j + 1));
-			netx_prod2 = ((i + 1) * j);
+			next_prod2 = ((i + 1) * j);
 
 			if (prod >= 10)
 				_putchar((prod / 10) + 48);
