@@ -9,8 +9,7 @@
 
 int main(void)
 {
-	int start = 3;
-	long prev = 2;
+	int start = 4444long prev = 2;
 	long cur = 3;
 	long temp;
 
