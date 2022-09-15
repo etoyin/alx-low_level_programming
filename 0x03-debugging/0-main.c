@@ -11,6 +11,6 @@ int main(void)
 	int i;
 
 	i = 20 % 2;
-	postive_negative(i);
+	postive_or_negative(i);
 	return (0);
 }
