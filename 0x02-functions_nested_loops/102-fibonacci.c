@@ -23,7 +23,12 @@ int main(void)
 		temp = cur;
 		cur = prev + cur;
 
-		printf("%ld, ", cur);
+		printf("%ld", cur);
+
+		if (start < 50)
+		{
+			printf(" ,");
+		}
 		prev = temp;
 		start++;
 	}
