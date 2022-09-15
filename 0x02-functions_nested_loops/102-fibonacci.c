@@ -23,7 +23,7 @@ int main(void)
 		temp = cur;
 		cur = prev + cur;
 
-		printf("%d, ", cur);
+		printf("%ld, ", cur);
 		prev = temp;
 		start++;
 	}
