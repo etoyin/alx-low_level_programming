@@ -21,3 +21,15 @@ void naturals(void)
 	}
 	printf("%d\n", c);
 }
+
+/**
+ * main - main
+ * Description: yjis is the description
+ * Return: 0
+ */
+
+int main(void)
+{
+	naturals();
+	return (0)
+}
