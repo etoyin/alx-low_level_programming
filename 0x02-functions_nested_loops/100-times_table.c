@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_table
+ * print_times_table - print all printables
  * Description: to print tables
  * @n: input parameters
  */
