@@ -31,5 +31,5 @@ void naturals(void)
 int main(void)
 {
 	naturals();
-	return (0)
+	return (0);
 }
