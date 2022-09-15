@@ -10,18 +10,19 @@
 int main(void)
 {
 	int start = 3;
-	int prev = 2;
-	int cur = 3;
-	int temp;
+	long prev = 2;
+	long cur = 3;
+	long temp;
 
 	printf("%d, ", 1);
 	printf("%d, ", 2);
+	printf("%d, ", 3);
 
 	while (start <= 50)
 	{
 		temp = cur;
 		cur = prev + cur;
-		
+
 		printf("%d, ", cur);
 		prev = temp;
 		start++;
