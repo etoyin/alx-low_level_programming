@@ -27,7 +27,7 @@ int main(void)
 
 		if (start < 50)
 		{
-			printf(" ,");
+			printf(", ");
 		}
 		prev = temp;
 		start++;
