@@ -3,7 +3,7 @@
 /**
  * print_square - function to print square
  * @size: size input
- * Return: void
+ * Return: Always 0
  */
 
 void print_square(int size)
@@ -21,7 +21,7 @@ void print_square(int size)
 
 			while (j < size)
 			{
-				_putchar(35);
+				_putchar('#');
 				j++;
 			}
 			i++;
