@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_fizz_buzz -  print fizz buzz
- * Return: void
+ * main -  print fizz buzz
+ * Description: print fizz buzz
+ * Return: 0
  */
 
-void print_fizz_buzz(void)
+int main(void)
 {
 	int i = 1;
 
