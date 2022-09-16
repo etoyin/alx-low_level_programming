@@ -4,6 +4,7 @@
 /**
  * print_triangle - main block
  * Description: print triangle
+ * @size: input size
  * Return: void
  */
 
@@ -31,7 +32,7 @@ void print_triangle(int size)
 			}
 			counter++;
 			i++;
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
