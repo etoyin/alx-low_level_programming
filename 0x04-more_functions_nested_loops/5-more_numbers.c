@@ -10,7 +10,7 @@ void more_numbers(void)
 	int i = 0;
 	int j;
 
-	while (i <= 10)
+	while (i < 10)
 	{
 		j = 0;
 
@@ -18,7 +18,6 @@ void more_numbers(void)
 		{
 			if (j > 9)
 				_putchar((j / 10) + 48);
-
 			_putchar((j % 10) + 48);
 			j++;
 		}
