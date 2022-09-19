@@ -16,7 +16,7 @@ void puts_half(char *str)
 	_putchar((l % 10) + 48);
 	_putchar('\n');
 	if (l % 2 != 0)
-		i = (l - 1) / 2;
+		i = ((l - 1) / 2) + 1;
 	else
 		i = l / 2;
 
