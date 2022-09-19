@@ -3,6 +3,7 @@
 /**
  * reset_to_98 -  a function that resets point var to 98
  * Description: functions description
+ * @*n: input parameter
  * Return: void
  */
 
