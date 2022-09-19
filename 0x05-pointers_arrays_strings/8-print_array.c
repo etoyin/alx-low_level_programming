@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print-array - to print n number of elements in array
+ * print_array - to print n number of elements in array
  * @a: array
  * @n: number of elements
  * Return: void
@@ -12,11 +12,16 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	while (i < n)
+	if (n <= 0)
+		printf(" \n");
+	else
 	{
-		if (i < n - 1)
-			printf("%d, ", a[i]);
-		i++;
+		while (i < n)
+		{
+			if (i < n - 1)
+				printf("%d, ", a[i]);
+			i++;
+		}
+		printf("%d\n", a[n - 1]);
 	}
-	printf("%d", a[n - 1]);
 }
