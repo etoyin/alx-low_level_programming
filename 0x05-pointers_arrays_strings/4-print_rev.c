@@ -13,10 +13,11 @@ void print_rev(char *s)
 	while (*s != '\0')
 	{
 		++s;
-		counter++;
+		++counter;
 	}
 
 	--counter;
+	putchar(counter + 48);
 
 	while (counter >= 0)
 	{
