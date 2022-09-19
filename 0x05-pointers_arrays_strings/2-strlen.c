@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * strlen -strlen block
+ * _strlen -strlen block
  * Description: string length function
  * @s: input param
  * Return: 0 or 1 or any integer
  */
 
-int strlen(char *s)
+int _strlen(char *s)
 {
 	int i = 0, counter = 0;
 
