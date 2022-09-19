@@ -7,7 +7,7 @@
  * Return: 0 or 1 or any integer
  */
 
-void strlen(char *s)
+int strlen(char *s)
 {
 	int i = 0, counter = 0;
 
