@@ -2,7 +2,7 @@
 
 /**
  * print_rev - print reverse
- * @c: input
+ * @s: input
  * Return: void
  */
 
