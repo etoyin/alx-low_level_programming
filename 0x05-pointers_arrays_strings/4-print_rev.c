@@ -17,7 +17,7 @@ void print_rev(char *s)
 	}
 
 	--counter;
-	putchar(counter + 48);
+	_putchar(counter + 48);
 
 	while (counter >= 0)
 	{
