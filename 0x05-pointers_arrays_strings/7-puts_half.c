@@ -12,7 +12,8 @@ void puts_half(char *str)
 
 	while (str[l] != '\0')
 		++l;
-	_putchar(l);
+	_putchar(l + 48);
+	_putchar('\n')
 	if (l % 2 != 0)
 		i = (l - 1) / 2;
 	else
