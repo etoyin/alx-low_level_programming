@@ -3,7 +3,7 @@
 /**
  * cap_string - capitalize string
  * @s: input
- * Return: void
+ * Return: string
  */
 
 char *cap_string(char *s)
@@ -12,7 +12,7 @@ char *cap_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		switch (s[i])
+		switch(s[i])
 		{
 		case ' ':
 			if (s[i + 1] >= 97 && s[i + 1] <= 122)
