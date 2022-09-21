@@ -18,6 +18,8 @@ char *_strncmp(char *s1, char *s2)
 			res = s1[i] - s2[i];
 			break;
         }
+		else
+			res = s1[i] - s2[i];
 		i++;
 	}
 	return (res);
