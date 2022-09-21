@@ -7,7 +7,7 @@
  */
 
 
-char *_strncmp(char *s1, char *s2)
+int *_strncmp(char *s1, char *s2)
 {
 	int i = 0, res;
 
