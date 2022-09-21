@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - concatenate 2 strings
+ * _strncat - concatenate 2 strings
  * @dest: destination strings
  * @src: source strings
  * @n: number of src
@@ -15,11 +15,12 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[i] != '\0')
 		i++;
 
-	while (j < n)
+	while (j < n && src[j] != '\0')
 	{
 		dest[i++] = src[j];
 		j++;
 	}
+    dest[i + j] = '\0';
 
 	return (dest);
 }
