@@ -3,7 +3,7 @@
  * _strncmp - concatenate 2 strings
  * @s1: destination strings
  * @s2: source strings
- * Return: value
+ * Return: 0 or anyother value
  */
 
 
