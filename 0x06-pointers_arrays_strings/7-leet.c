@@ -22,6 +22,7 @@ char *leet(char *s)
 			if (s[i] == upp[j] || s[i] == low[j])
 			{
 				s[i] = subNum[j];
+				break;
 			}
 			j++;
 		}
