@@ -4,6 +4,7 @@
  * _strspn - function to task
  * @s: input
  * @accept: input
+ * 
  * Return: number of bytes
  */
 
