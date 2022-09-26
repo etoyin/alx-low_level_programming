@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * _strspn - function to task
  * @s: input
  * @accept: input
- * Return: numbr of bytes
+ * Return: number of bytes
  */
 
 unsigned int _strspn(char *s, char *accept)
