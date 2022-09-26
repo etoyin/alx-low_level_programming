@@ -1,4 +1,4 @@
-// #include "main.h"
+#include "main.h"
 
 /**
  * _memset - works like the memset() function
@@ -10,13 +10,12 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
+	unsigned int i = 0;
 	char *st = s;
 
 	while (i < n)
 	{
-		*s++ = b;
-		i++;
+		s[i++] = b;
 	}
 	return (st);
 }
