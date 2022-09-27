@@ -3,7 +3,9 @@
 /**
  * print_chessboard - print all the pieces in a chessboard 
  * and whitespaces
- * @a: input array to be printed
+ * 
+ * @a: input pointer array to be printed
+ * 
  * Return: void
  */
 
