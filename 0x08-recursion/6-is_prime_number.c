@@ -10,7 +10,7 @@ int is_prime_number(int n)
 {
 	if (n == 0 || n == 1)
 		return (0);
-	prime_checker(n, 2);
+	return (prime_checker(n, 2));
 }
 
 /**
@@ -23,12 +23,11 @@ int is_prime_number(int n)
 int prime_checker(int n, int i)
 {
 	if (n <= 2)
-    	return (n == 2) ? 1 : 0;
-    if (n % i == 0)
-        return 0;
-    if (i * i > n)
-        return 1;
- 
-    // Check for next divisor
-    return isPrime(n, i + 1);
+		return (n == 2) ? 1 : 0;
+	if (n % i == 0)
+		return 0;
+	if (i * i > n)
+		return 1;
+
+	return isPrime(n, i + 1);
 }
