@@ -28,12 +28,11 @@ int _sqrt_recursion(int n)
 
 int square_root(int n, int t, int s)
 {
-	if (t == s)
-		return (s);
 	if (t != s)
 	{
 		t = s;
 		s = ((n / t) + t) / 2;
 		return (square_root(n, t, s));
 	}
+	return (s);
 }
