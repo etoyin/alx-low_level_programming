@@ -29,5 +29,5 @@ int prime_checker(int n, int i)
 	if (i * i > n)
 		return 1;
 
-	return isPrime(n, i + 1);
+	return prime_checker(n, i + 1);
 }
