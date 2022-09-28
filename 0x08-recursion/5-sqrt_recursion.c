@@ -10,7 +10,12 @@ int _sqrt_recursion(int n)
 {
 	int t = 0, s = n / 2;
 
-	square_root(n, t, s);
+	if (n < 0)
+	{
+		return (-1);
+	}
+
+	return (square_root(n, t, s));
 }
 
 /**
