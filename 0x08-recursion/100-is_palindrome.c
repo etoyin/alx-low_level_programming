@@ -25,10 +25,7 @@ int is_palindrome(char *s)
 
 int _palindrome(char *s, int start, int last)
 {
-	// if (start >= last)
-	// {
-	// 	return (1);
-	// }
+
 	if (start < last)
 	{
 		if (s[start] != s[last])
