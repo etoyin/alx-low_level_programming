@@ -8,7 +8,7 @@
 
 int is_palindrome(char *s)
 {
-	int i, counter = 0, start = 0;
+	int counter = 0, start = 0;
 
 	counter = _strlen_recursion(s);
 	return (_palindrome(s, start, counter));
