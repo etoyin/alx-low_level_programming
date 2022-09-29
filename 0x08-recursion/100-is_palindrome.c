@@ -19,7 +19,7 @@ int is_palindrome(char *s)
  * _palindrome - function
  * @s: string input
  * @start: first index input
- * @length: length of string
+ * @last: length of string
  * Return: 0 or 1
  */
 
