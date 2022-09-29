@@ -10,9 +10,7 @@ int is_palindrome(char *s)
 {
 	int i, counter = 0, start = 0;
 
-	for (i = 0; s[i] != '\0'; ++s)
-		++counter;
-
+	counter = _strlen_recursion(s);
 	return (_palindrome(s, start, counter));
 
 }
