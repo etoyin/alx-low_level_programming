@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 	for (i = 0; s[i] != '\0'; ++s)
 		++counter;
 
-	return (_palindrome(*s, start, counter));
+	return (_palindrome(s, start, counter));
 
 }
 
@@ -31,7 +31,7 @@ int _palindrome(char *s, int start, int length)
 	{
 		if (s[start] != s[length - 1])
 			return (0);
-		return (_palindrome(*s, start + 1, length - 2));
+		return (_palindrome(s, start + 1, length - 2));
 	}
 	return (1);
 }
