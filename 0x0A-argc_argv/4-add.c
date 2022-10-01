@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		sum = 0;
+
 		while (i < argc)
 		{
 			if (isNum(argv[i]) == 0)
@@ -54,7 +55,7 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-            i++;
+			i++;
 		}
 		printf("%d\n", sum);
 	}
