@@ -34,7 +34,7 @@ int isNum(char num[])
 
 int main(int argc, char *argv[])
 {
-	int i = 1, sum;
+	int i = 1, sum = 0
 
 	if (argc == 1)
 	{
@@ -42,8 +42,6 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		sum = 0;
-
 		while (i < argc)
 		{
 			if (isNum(argv[i]) == 0)
