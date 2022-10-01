@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
 	int i;
 	if (argc > 2)
 	{
-		i = argv[1] * argv[2];
-		printf("%ld\n", i);
+		i = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", i);
 		return (0);
 	}
 	printf("Error\n");
