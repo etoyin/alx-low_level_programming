@@ -28,6 +28,6 @@ char *_strdup(char *str)
 		s[i] = str[i];
 		i++;
 	}
- 
+
 	return (s);
 }
