@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "function_pointers.h"
+
 /**
  * gain mastery over a mistery and you get a ministry
  * array_iterator - a function that executes a given function
