@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - return the length of the elements
+ * add_nodeint_end - return the length of the elements
  * @head: pointer to head first node
  * @n: element to be added
  * Return: Number of nodes
