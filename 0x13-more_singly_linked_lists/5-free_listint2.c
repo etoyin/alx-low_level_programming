@@ -11,16 +11,12 @@ void free_listint2(listint_t **head)
 
 	if (head != NULL)
 	{
-		/*set head addr to current*/
+
 		curr = *head;
 
-		/*iterate through the whole list*/
-		/*while setting the current node to temp*/
 		while ((temp = curr) != NULL)
 		{
-			/*set next node to curretnt*/
 			curr = curr->next;
-			/*free temp, that is the current node*/
 			free(temp);
 		}
 
