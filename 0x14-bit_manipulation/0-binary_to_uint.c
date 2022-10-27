@@ -12,6 +12,9 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int decimal = 0;
 	int length = 0, base = 1;
 
+	if (b == NULL)
+		return (0);
+
 	while (b[length] != '\0')
 	{
 		if (b[length] != '0' && b[length] != '1')
