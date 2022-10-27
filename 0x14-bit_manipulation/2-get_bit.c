@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * print_binary - convert decimal to binary
+ * get_bit - get bit of an index
  * @n: input decimal number
- * Return: nothing alx-low_level_programming/0x14-bit_manipulation
+ * @index: input index
+ * Return: the value of bit alx-low_level_programming/0x14-bit_manipulation
  **/
 
 int get_bit(unsigned long int n, unsigned int index)
