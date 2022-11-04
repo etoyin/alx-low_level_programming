@@ -2,7 +2,6 @@
 
 #define MAXSIZE 1024
 
-
 /**
  * __exit - prints error messages and exits with exit number
  * @error: either the exit number or file descriptor
